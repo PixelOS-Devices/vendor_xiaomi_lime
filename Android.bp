@@ -36,13 +36,6 @@ android_app_import {
 	soc_specific: true,
 }
 
-dex_import {
-	name: "com.fingerprints.extension",
-	owner: "xiaomi",
-	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
-	soc_specific: true,
-}
-
 prebuilt_etc_xml {
 	name: "manifest_vendor.xiaomi.hardware.mlipay",
 	owner: "xiaomi",
